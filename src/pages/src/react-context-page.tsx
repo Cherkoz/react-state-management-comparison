@@ -1,7 +1,10 @@
+import { ReactContextApp } from '@my-app/components';
+import { AuthProvider } from '@my-app/stores';
+
 export function ReactContextPage() {
   return (
-    <>
-      <>React Context page</>
-    </>
+    <AuthProvider>
+      <ReactContextApp />
+    </AuthProvider>
   );
 }
