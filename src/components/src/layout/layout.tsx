@@ -6,7 +6,7 @@ export function Layout() {
   return (
     <>
       <Header />
-      <main>
+      <main className={'w-full max-w-[1200px] m-auto p-4'}>
         <Outlet />
       </main>
     </>
